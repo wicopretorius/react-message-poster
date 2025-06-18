@@ -1,12 +1,97 @@
-# React + Vite
+# React Message Poster
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple full-stack app for posting and viewing messages. Built with **React** on the frontend and **Express.js** on the backend.
 
-Currently, two official plugins are available:
+## 🖼️ Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Coming soon (or paste screenshots / Loom link here)
 
-## Expanding the ESLint configuration
+## 🛠️ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Create and view messages with author and body
+- Delete individual messages
+- Full-screen modal for viewing post details
+- API connected via RESTful endpoints
+- CORS-enabled backend using Express.js
+
+## 🧱 Tech Stack
+
+**Frontend:**
+
+- React (Vite)
+- React Router
+- CSS Modules
+
+**Backend:**
+
+- Node.js
+- Express.js
+- JSON file as mock database
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/wicopretorius/react-message-poster.git
+cd react-message-poster
+```
+
+### 2. Install dependencies
+
+**Install frontend dependencies:**
+
+```bash
+cd frontend
+npm install
+```
+
+**Install backend dependencies:**
+
+```bash
+cd ../backend-api
+npm install
+```
+
+### 3. Run the app
+
+**In one terminal, run the backend:**
+
+```bash
+cd backend-api
+npm start
+```
+
+**In another terminal, run the frontend:**
+
+```bash
+cd frontend
+npm run dev
+```
+
+**The frontend runs at http://localhost:5173 and the backend at http://localhost:8080.**
+
+## 📝 Folder Structure
+
+```bash
+react-message-poster/
+├── frontend/          # Vite + React frontend
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       └── ...
+├── backend-api/       # Express API backend
+│   ├── app.js
+│   └── data/
+│       └── dummy-backend.json
+```
+
+## 📜 License
+
+MIT – Feel free to use and adapt this project.
+
+## 👤 Author
+
+Built by Wico Pretorius.
